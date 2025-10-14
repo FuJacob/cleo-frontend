@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Instrument_Serif, Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SmoothCursor } from "@/components/ui/smooth-cursor";
+
 import "./globals.css";
 
 const instrumentSerif = Instrument_Serif({
@@ -27,9 +30,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics />
       <body
-        className={`${instrumentSerif.variable} ${poppins.variable} antialiased`}
+        className={`${instrumentSerif.variable} ${poppins.variable} antialiased cursor-none`}
       >
+        <SmoothCursor />
         {children}
       </body>
     </html>
