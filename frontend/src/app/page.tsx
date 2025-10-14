@@ -48,8 +48,8 @@ export default function Home() {
         </h1>
         <p className="text-lg md:text-xl mb-8 max-w-2xl text-white/90">
           Cleo lives natively on your Mac, deeply integrated with macOS. Stay
-          focused, learn faster, and work smarter with AI that's always there
-          when you need it.
+          focused, learn faster, and work smarter with AI that&apos;s always
+          there when you need it.
         </p>
         <InteractiveHoverButton className="bg-white text-black hover:bg-gray-100 px-8 py-4 text-lg font-semibold mb-12">
           <span className="flex items-center gap-2">
