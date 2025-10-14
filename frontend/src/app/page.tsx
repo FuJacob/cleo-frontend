@@ -18,8 +18,8 @@ export default function Home() {
           Your AI assistant for meetings
         </h1>
         <p className="text-lg md:text-xl mb-8 max-w-2xl text-white/90">
-          Takes perfect notes, answers questions in real-time, and makes you
-          the most prepared person on every call.
+          Takes perfect notes, answers questions in real-time, and makes you the
+          most prepared person on every call.
         </p>
         <Button className="bg-white text-black hover:bg-gray-200 px-6 py-3 text-base">
           <Apple className="mr-2 h-5 w-5" />
