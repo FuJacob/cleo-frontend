@@ -126,7 +126,7 @@ export default function Home() {
         {/* Gradient overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/30 pointer-events-none" />
 
-        <div className="flex-1 flex flex-col justify-center w-full relative z-10">
+        <div className="flex-1 flex flex-col justify-end w-full relative z-10 pb-32">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 w-full flex flex-col items-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight drop-shadow-[0_2px_3px_rgba(0,0,0,0.3)]">
               Your{" "}
@@ -158,15 +158,6 @@ export default function Home() {
                 </span>
               </ShimmerButton>
             </div>
-          </div>
-
-          {/* Reviews Marquee - Full Width */}
-          <div className="relative w-full overflow-hidden">
-            <Marquee pauseOnHover className="[--duration:40s]">
-              {reviews.map((review) => (
-                <ReviewCard key={review.username} {...review} />
-              ))}
-            </Marquee>
           </div>
         </div>
 
