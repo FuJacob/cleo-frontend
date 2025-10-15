@@ -85,7 +85,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <ul className="flex gap-4 md:gap-8 text-sm md:text-base text-white items-center">
             <li className="cursor-pointer hover:text-white/80 transition flex items-center gap-2">
-              <Image src="/cleo_logo.svg" alt="Cleo Logo" width={32} height={32} className="w-7 h-7 md:w-8 md:h-8" />
+              <Image
+                src="/cleo_logo.svg"
+                alt="Cleo Logo"
+                width={32}
+                height={32}
+                className="w-7 h-7 md:w-8 md:h-8"
+              />
               <span className="font-bold text-lg md:text-xl">Cleo</span>
             </li>
             <li className="hidden sm:block cursor-pointer hover:text-white/80 transition">
@@ -138,7 +144,9 @@ export default function Home() {
             <div className="w-32 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent mb-6 sm:mb-8"></div>
 
             <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 max-w-2xl text-white/95 px-2 drop-shadow-[0_2px_3px_rgba(0,0,0,0.25)]">
-              Lightweight, fast, and invisible until you need it. Three shortcuts give you instant explanations, summaries, and revisions—without disrupting your flow.
+              Lightweight, fast, and invisible until you need it. Three
+              shortcuts give you instant explanations, summaries, and
+              revisions—without disrupting your flow.
             </p>
             <div className="relative mb-12 sm:mb-16">
               {/* Glow effect */}
@@ -159,7 +167,6 @@ export default function Home() {
                 <ReviewCard key={review.username} {...review} />
               ))}
             </Marquee>
-
           </div>
         </div>
 
@@ -167,7 +174,12 @@ export default function Home() {
         <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-12 pb-8 sm:pb-12 md:pb-16 lg:pb-20 relative z-10 px-4">
           {/* Group 1: Explain */}
           <div className="flex flex-col items-center gap-2 sm:gap-3 w-full sm:w-auto">
-            <p className="text-sm sm:text-base text-white" style={{ fontFamily: 'var(--font-instrument-serif)' }}>Explain</p>
+            <p
+              className="text-sm sm:text-base text-white"
+              style={{ fontFamily: "var(--font-instrument-serif)" }}
+            >
+              Explain
+            </p>
             <div className="flex items-center gap-1.5 sm:gap-2 bg-white/10 backdrop-blur-sm px-4 sm:px-5 py-2.5 sm:py-3 rounded-full border border-white/20">
               <kbd className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center bg-gradient-to-b from-gray-900 to-black border-2 border-gray-600 rounded-lg text-base sm:text-lg font-bold text-white">
                 ⌃
@@ -183,7 +195,12 @@ export default function Home() {
 
           {/* Group 2: Summarize */}
           <div className="flex flex-col items-center gap-2 sm:gap-3 w-full sm:w-auto">
-            <p className="text-sm sm:text-base text-white" style={{ fontFamily: 'var(--font-instrument-serif)' }}>Summarize</p>
+            <p
+              className="text-sm sm:text-base text-white"
+              style={{ fontFamily: "var(--font-instrument-serif)" }}
+            >
+              Summarize
+            </p>
             <div className="flex items-center gap-1.5 sm:gap-2 bg-white/10 backdrop-blur-sm px-4 sm:px-5 py-2.5 sm:py-3 rounded-full border border-white/20">
               <kbd className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center bg-gradient-to-b from-gray-900 to-black border-2 border-gray-600 rounded-lg text-base sm:text-lg font-bold text-white">
                 ⌃
@@ -199,7 +216,12 @@ export default function Home() {
 
           {/* Group 3: Revise text */}
           <div className="flex flex-col items-center gap-2 sm:gap-3 w-full sm:w-auto">
-            <p className="text-sm sm:text-base text-white" style={{ fontFamily: 'var(--font-instrument-serif)' }}>Revise text</p>
+            <p
+              className="text-sm sm:text-base text-white"
+              style={{ fontFamily: "var(--font-instrument-serif)" }}
+            >
+              Revise text
+            </p>
             <div className="flex items-center gap-1.5 sm:gap-2 bg-white/10 backdrop-blur-sm px-4 sm:px-5 py-2.5 sm:py-3 rounded-full border border-white/20">
               <kbd className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center bg-gradient-to-b from-gray-900 to-black border-2 border-gray-600 rounded-lg text-base sm:text-lg font-bold text-white">
                 ⌃
@@ -219,9 +241,16 @@ export default function Home() {
       <footer className="px-4 py-4 sm:py-3 bg-black border-t border-gray-800">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
           <div className="flex items-center gap-2">
-            <Image src="/cleo_logo.svg" alt="Cleo Logo" width={16} height={16} className="w-4 h-4" />
+            <Image
+              src="/cleo_logo.svg"
+              alt="Cleo Logo"
+              width={16}
+              height={16}
+              className="w-4 h-4"
+            />
             <p className="text-xs text-gray-400 mb-0 text-center sm:text-left">
-              © 2025 <span className="font-bold">Cleo</span>. All rights reserved.
+              © 2025 <span className="font-bold">Cleo</span>. All rights
+              reserved.
             </p>
           </div>
           <div className="flex gap-4 sm:gap-6 text-xs text-gray-500">
